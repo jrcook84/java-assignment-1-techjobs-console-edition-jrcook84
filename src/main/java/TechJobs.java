@@ -118,8 +118,14 @@ public class TechJobs {
     }
 
     // Print a list of jobs
-    private static void printJobs(ArrayList<HashMap<String, String>> someJobs) {
-
-        System.out.println("printJobs is not implemented yet");
+    private static void printJobs(ArrayList<HashMap<String, String>> allJobs) {
+    for (HashMap<String, String>pete:allJobs){
+        String newJob ="";
+        for (String walrus : pete.keySet()){
+        newJob += walrus +  ":" +  pete.get(walrus) + "\n";
+        }
+        System.out.println(newJob);
+    }
+        // System.out.println("printJobs is not implemented yet");
     }
 }
