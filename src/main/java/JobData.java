@@ -111,11 +111,7 @@ public class JobData {
 
         }
         // TODO - implement this method
-//        for (HashMap<String, String> row : allJobs) {
-//            String aValue = row.get(field);
 //
-//            if (!values.contains(aValue)) {
-//                values.add(aValue);
         return newList;
     }
 

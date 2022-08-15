@@ -129,10 +129,10 @@ public class TechJobs {
         newJob += walrus +  ": " +  pete.get(walrus) + "\n";
         }
         newJob+= "*****";
-        //System.out.println(*****);
+
         System.out.println(newJob);
 
     }
-        // System.out.println("printJobs is not implemented yet");
+
     }
 }
